@@ -1,0 +1,8 @@
+.checkbox {
+    @apply
+    dark:focus:ring-cyan-600
+    dark:ring-offset-gray-800
+    focus:ring-primary-600
+    text-primary-600
+    ;
+}

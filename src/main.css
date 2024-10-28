@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .boxed {
+        @apply
+        border
+        border-red-600
+        ;
+    }
+}
+
+a:hover {
+    @apply text-primary-600;
+}
+
+input, select, textarea {
+    @apply border-primary-600 border-2;
+    box-shadow: none !important;
+}
+

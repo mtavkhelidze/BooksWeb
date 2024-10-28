@@ -1,0 +1,72 @@
+{
+    "compilerOptions": {
+        "allowImportingTsExtensions": true,
+        "allowJs": false,
+        "assumeChangesOnlyAffectDirectDependencies": true,
+        "baseUrl": ".",
+        "downlevelIteration": true,
+        "emitDecoratorMetadata": true,
+        "exactOptionalPropertyTypes": true,
+        "experimentalDecorators": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "module": "ESNext",
+        "moduleDetection": "force",
+        "moduleResolution": "bundler",
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "paths": {
+            "@blocks/*": [
+                "src/blocks/*"
+            ],
+            "@defs": [
+                "src/defs.ts"
+            ],
+            "@lib/*": [
+                "src/lib/*"
+            ],
+            "@model": [
+                "src/model/index.ts"
+            ],
+            "@modules/*": [
+                "src/modules/*"
+            ],
+            "@pages/*": [
+                "src/pages/*"
+            ],
+            "@screens/*": [
+                "src/screens/*"
+            ],
+            "@services": [
+                "src/services/index.ts"
+            ],
+            "@services/*": [
+                "src/services/*"
+            ],
+            "@state": [
+                "src/state/index.ts"
+            ],
+            "@state/*": [
+                "src/state/*"
+            ],
+            "@types": [
+                "src/types.ts"
+            ]
+        },
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "ESNext",
+        "useDefineForClassFields": true
+    },
+    "include": [
+        "node_modules/vitest/globals.d.ts",
+        "src"
+    ]
+}

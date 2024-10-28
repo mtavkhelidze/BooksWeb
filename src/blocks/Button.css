@@ -1,0 +1,55 @@
+.button-primary {
+    @apply
+    bg-primary-500
+    border
+    border-primary-500
+    cursor-pointer
+    font-medium
+    px-4
+    py-1
+    rounded-md
+    select-none
+    text-white
+    ;
+
+    &:active {
+        @apply
+        bg-primary-700
+        scale-95
+        ;
+    }
+
+    &:hover {
+        @apply
+        bg-primary-600
+        drop-shadow-md
+        shadow-primary-600
+        ;
+    }
+
+}
+
+.button-secondary {
+    @apply button-primary;
+    @apply
+    bg-secondary-500
+    border
+    border-secondary-500
+    text-white
+    ;
+
+    &:active {
+        @apply
+        bg-secondary-700
+        scale-95
+        ;
+    }
+
+    &:hover {
+        @apply
+        bg-secondary-600
+        drop-shadow-md
+        shadow-secondary-600
+        ;
+    }
+}
